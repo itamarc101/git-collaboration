@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #secret-message {
+    color: #f4f4f4; /* same as background — hidden in plain sight */
+    font-size: 14px;
+    margin-top: 30px;
+    transition: color 0.5s ease;
+  }
+  
+  #secret-message:hover {
+    color: black; /* becomes visible when hovered */
+  }
+  
